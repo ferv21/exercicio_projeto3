@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agência Digital</title>
+</head>
+<body>
+        <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+            <div class="container">
+                <h1 class="text-colored m-0">Agência Digital</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse justify-content-end align-items-center" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-lg-flex mt-md-3 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold active" href="#home">
+                                <i class="bi bi-house"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#servicos">
+                                <i class="bi bi-chat-right-dots"></i>
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#info">
+                                <i class="bi bi-info-square"></i>
+                                Info
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#fale-conosco">
+                                <i class="bi bi-phone"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="home" class="mb-5">
+       <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-img">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/images/slide/slide1 (1).jpg" alt="">
+                </div>
+                 <div class="carousel-item">
+                <img src="/images/slide/slide2 (2).jpg" alt="">
+                </div>
+                 <div class="carousel-item">
+                <img src="/images/slide/slide3.jpg" alt="">
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-img">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-img">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+         </div>
+        
+        
+            <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-7 col-md-12 mb-2">
+                    <img class="w-100 rounded" src="/images/cards/home.jpg" alt="">
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <h2 class="title-colored text-center mb-4 card-title">Título Home</h2>
+                    <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus quod ullam nam, optio dolor quisquam nostrum perferendis! Similique at optio aut. Amet minus recusandae magni dolorem explicabo doloribus animi?</p>
+                    <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus quod ullam nam, optio dolor quisquam nostrum perferendis! Similique at optio aut. Amet minus recusandae magni dolorem explicabo doloribus animi?</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center title-colored card-title mb-3">Nossos Serviços</h2>
+                   <div class="col-lg-4 col-sm-6 mt-3">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <img class="w-100" src="/images/tabs/tab-sites.jpg" alt="">
+                                    <h5 class="card-title titulo-card fs-4">
+                                        <i class="bi bi-window-sidebar card-icon fs-3"></i>
+                                        Desenvolvimento de Sites
+                                    </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-3">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <img class="w-100" src="/images/tabs/tab-app.jpg" alt="">
+                                    <h5 class="card-title titulo-card fs-4">
+                                        <i class="bi bi-code-square card-icon fs-3"></i>
+                                        Aplicativos
+                                    </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-sm-6 mt-3">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="card-body">
+                                    <img class="w-100" src="/images/tabs/tab-marketing.jpg" alt="">
+                                    <h5 class="card-title titulo-card fs-4">
+                                        <i class="bi bi-shop card-icon fs-3"></i>
+                                        Marketing Digital
+                                    </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-lg-4 col-sm-6 mt-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <img class="w-100" src="/images/cards/card4.jpg" alt="">
+                                        <h5 class="card-title titulo-card fs-4">
+                                            <i class="bi bi-kanban card-icon fs-3"></i>
+                                            Gestão de Projetos
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <img class="w-100" src="/images/cards/card5.jpg" alt="">
+                                        <h5 class="card-title titulo-card fs-4">
+                                            <i class="bi bi-lightbulb card-icon fs-3"></i>
+                                            Consultoria
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-3">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <img class="w-100" src="/images/cards/card6.jpg" alt="">
+                                        <h5 class="card-title titulo-card fs-4">
+                                            <i class="bi bi-currency-dollar card-icon fs-3"></i>
+                                            Investimentos
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem possimus cupiditate, id dignissimos quasi dicta reprehenderit culpa delectus quo vitae nostrum quas, nesciunt voluptatum dolores aliquam consectetur dolorem fugit!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>    
+        <section id="info">
+            <div class="menu mt-3">
+               <div class="container">
+                <div class="row">         
+                    <h2 class="text-center title-colored card-title mt-5 mb-5">Mais Informações</h2>
+                    <div class="col-lg-2">
+                        <aside class="nav nav-pills flex-column">  
+                            <button data-bs-toggle="tab" data-bs-target="#site" type="button" class="btn active mb-1 fw-bold fs-5">Sobre os Sites</button>
+                            <button data-bs-toggle="tab" data-bs-target="#app" type="button" class="btn mb-1 fw-bold fs-5">Sobre os Aplicativos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#marketing" type="button" class="btn mb-1 fw-bold fs-5">Marketing</button>
+                            <button data-bs-toggle="tab" data-bs-target="#gestao" type="button" class="btn mb-1 fw-bold fs-5">Gestão de Projetos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#consultoria" type="button" class="btn mb-1 fw-bold fs-5">Consultoria</button>
+                            <button data-bs-toggle="tab" data-bs-target="#investimento" type="button" class="btn mb-1 fw-bold fs-5">Investimentos</button>
+                        </aside>
+                    </div>
+                    <div class="col-lg-10 col-md-12">
+                    <div class="tab-content">
+                        <div class="tab-pane  active" id="site">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/tabs/tab-sites.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-window-sidebar card-icon fs-3"></i>
+                                                    Desenvolvimento de Sites
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>     
+                        </div>
+                        <div class="tab-pane" id="app">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/tabs/tab-app.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-code-square card-icon fs-3"></i>
+                                                    Aplicativos
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="marketing">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/tabs/tab-marketing.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-shop card-icon fs-3"></i>
+                                                    Marketing
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>
+                        </div>   
+                        <div class="tab-pane" id="gestao">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/cards/card4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-kanban card-icon fs-3"></i>
+                                                    Gestão de Projetos
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>
+                        </div> 
+                        <div class="tab-pane" id="consultoria">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/cards/card5.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-lightbulb card-icon fs-3"></i>
+                                                    Consultoria
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>
+                        </div> 
+                        <div class="tab-pane" id="investimento">
+                            <div class="row mt-md-3">
+                                            <div class="col-md-6">
+                                                <img class="w-100 mt-md-4 mt-lg-0" src="/images/cards/card6.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5 class="text-center card-title titulo-card fs-3 mt-3">
+                                                    <i class="bi bi-currency-dollar card-icon fs-3"></i>
+                                                    Investimentos
+                                                </h5>
+                                                <p class="text-center fs-5 mt-md-1 mt-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae sequi, autem eveniet ex cumque, deleniti provident, quibusdam labore id culpa. Molestiae aperiam deleniti, deserunt adipisci temporibus id quaerat soluta.</p>
+                                            </div>
+                            </div>
+                        </div>                   
+                    </div>
+                    </div>       
+                </div>
+               </div>
+            </div>
+        </section>
+
+        
+        <section id="fale-conosco" class="mt-md-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center title-colored card-title mb-5 mt-5">Fale Conosco</h2>
+                </div>
+                <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <img class="w-100" src="/images/cards/contact.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>    
+                <div class="col-md-8">
+                    <div>
+                        <form>
+                            <div>
+                                <label class="form-label fw-bold label-color" for="">Nome</label>
+                                <input class="form-control" type="text" name="nome">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold label-color mt-2" for="">E-mail</label>
+                                <input class="form-control" type="email" name="email">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold label-color mt-2" for="">Seu contato</label>
+                                <input class="form-control" type="tel" name="telefone" id="telefone">
+                            </div>
+                            <div>
+                                <label class="form-label fw-bold label-color mt-2">Sua Dúvida ou Comentário</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn mt-2">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="rodape" class="pt-5 mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="whats  d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                    <span><a href="">Ligue para</a> (00)00000-0000</span>
+                    <span class="mt-3"><span>Horários</span> 8:00 às 19:00</span>   
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whats  d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                        <span><a href="">Envie um e-mail:</a> contato@agenciadigital.com</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whats d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-geo-alt"></i>
+                    </a>
+                    </div>
+                    <div class="d-flex flex-column text-center">
+                        <span><a href="">Venha nos visitar:</a> Rua Teste N°312 , Bairro Exemplo - Manaus-AM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="whats  d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    </div>
+                    <div class="text-center">
+                        Instagram
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whats  d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    </div>
+                    <div class="text-center">
+                        Facebook
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whats d-flex justify-content-center">
+                    <a href="">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    </div>
+                    <div class="text-center">
+                        Linkedin
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="mt-5">
+            <div class="container">
+            &copy; Agencia Digital - Todos os direitos reservados - 2023 
+            </div>
+        </footer>
+        </section>
+        </div>
+
+
+        <script src="/lib/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="/lib/jquery.mask.min.js"></script>
+        <script src="/lib/jquery.validate.min.js"></script>
+        <script src="/lib/messages_pt_BR.min.js"></script>
+        <script src="/index.js"></script>
+</body>
+</html>
